@@ -96,8 +96,6 @@ export default {
     return {
       filters: {
         global: { value: null, matchMode: FilterMatchMode.CONTAINS },
-        name: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
-        belt: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
         weight: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
         birth: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
         country: { value: null, matchMode: FilterMatchMode.STARTS_WITH }
@@ -109,8 +107,6 @@ export default {
     clearFilter() {
       this.filters = {
         global: { value: null, matchMode: FilterMatchMode.CONTAINS },
-        name: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
-        belt: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
         weight: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
         birth: { value: null, matchMode: FilterMatchMode.STARTS_WITH },
         country: { value: null, matchMode: FilterMatchMode.STARTS_WITH }
